@@ -1,6 +1,3 @@
-/*
- *  Source: http://stevegardner.net/2012/06/11/javascript-code-to-calculate-the-pearson-correlation-coefficient/
- */
 function getPearsonCorrelation(x, y) {
     var shortestArrayLength = 0;
      
