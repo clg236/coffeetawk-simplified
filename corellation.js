@@ -1,4 +1,8 @@
 function getPearsonCorrelation(x, y) {
+    // make sure the data type is correct
+    x = x.map(parseFloat);
+    y = y.map(parseFloat);
+
     var shortestArrayLength = 0;
      
     if(x.length == y.length) {
